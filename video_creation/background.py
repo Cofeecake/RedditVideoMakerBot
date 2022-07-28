@@ -20,17 +20,19 @@ from utils.console import print_step, print_substep
 # 3. Citation (owner of the video)
 # 4. Position of image clips in the background. See moviepy reference for more information. (https://zulko.github.io/moviepy/ref/VideoClip/VideoClip.html#moviepy.video.VideoClip.VideoClip.set_position)
 background_options = {
-    "motor-gta": (  # Motor-GTA Racing
-        "https://www.youtube.com/watch?v=vw5L4xCPy9Q",
-        "bike-parkour-gta.mp4",
-        "Achy Gaming",
-        lambda t: ("center", 480 + t),
+    "subway-surfer": (  
+        
+            "https://www.youtube.com/watch?v=VwJaIa_Eyds",
+            "subway_surfer.mp4",
+            "Ne0p1ayz",
+            "center",
+        
     ),
-    "rocket-league": (  # Rocket League
-        "https://www.youtube.com/watch?v=2X9QGY__0II",
-        "rocket_league.mp4",
-        "Orbital Gameplay",
-        lambda t: ("center", 200 + t),
+    "mch": (  # minecraft highpixel
+        "https://www.youtube.com/watch?v=Pt5_GSKIWQM",
+            "minecrafthipixel.mp4",
+            "itslpsn",
+            "center",
     ),
     "minecraft": (  # Minecraft parkour
         "https://www.youtube.com/watch?v=n_Dv4JMiwK8",
@@ -43,6 +45,10 @@ background_options = {
         "gta-stunt-race.mp4",
         "Achy Gaming",
         lambda t: ("center", 480 + t),
+    ),
+        "apex": (  # apex
+        'https://www.youtube.com/watch?v=P8IijqiXc5Q', "apex.mp4", "NoCopyrightGameplay", 'center'
+        
     ),
 }
 
